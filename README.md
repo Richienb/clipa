@@ -1,41 +1,32 @@
-# The module [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/the-module/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/the-module)
+# Clipa [![Travis CI Build Status](https://img.shields.io/travis/com/Richienb/clipa/master.svg?style=for-the-badge)](https://travis-ci.com/Richienb/clipa)
 
-My awesome module.
+Cross-platform copying and pasting from the clipboard.
 
-[![NPM Badge](https://nodei.co/npm/the-module.png)](https://npmjs.com/package/the-module)
+[![NPM Badge](https://nodei.co/npm/clipa.png)](https://npmjs.com/package/clipa)
 
 ## Install
 
 ```sh
-npm install the-module
+npm install clipa
 ```
 
 ## Usage
 
 ```js
-const theModule = require("the-module");
+let clipboard = require("clipa");
 
-theModule("unicorns");
-//=> 'unicorns & rainbows'
+// Set data
+clipboard = "Hello World!";
+
+// Get data
+console.log(clipboard);
+//=> 'Hello World!'
 ```
 
 ## API
 
-### theModule(input, options?)
-
-#### input
+### clipboard
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`\
-Default: `rainbows`
-
-Lorem ipsum.
+The clipboard content.

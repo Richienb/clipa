@@ -1,14 +1,17 @@
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * The clipboard content.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * let clipboard = require("clipa");
+ *
+ * // Set data
+ * clipboard = "Hello World!";
+ *
+ * // Get data
+ * console.log(clipboard);
+ * //=> 'Hello World!'
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare const clipboard: any;
 
 export = theModule;
