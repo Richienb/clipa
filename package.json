@@ -1,7 +1,7 @@
 {
     "name": "clipa",
     "version": "1.0.0",
-    "description": "My awesome module.",
+    "description": "Cross-platform copying and pasting from the clipboard.",
     "repository": "https://github.com/Richienb/clipa.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
